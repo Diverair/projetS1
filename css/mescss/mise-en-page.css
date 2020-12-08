@@ -1,0 +1,291 @@
+html{
+    margin:0;
+    padding: 0;
+}
+/*Body*/
+body{
+    background-color: #373737;
+    margin: 0;
+}
+
+body>header>nav{
+    background-color: #87878770;
+    display: table-row;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 99;
+}
+
+.haut-de-page>img{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    position: relative;
+    z-index: 3;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+article{
+    position: relative;
+    z-index: 3;
+}
+
+.fond-page{
+    background-color: #373737;
+    margin:0;
+    padding-top: 1rem;
+    position: relative;
+    z-index: 2;
+}
+/*FIN Body*/
+
+/*Page Accueil*/
+.page-accueil>.haut-de-page{
+    width: 100%;
+    height: 100%;
+    margin-top:187.75px;
+    margin-bottom:187.75px;
+}
+/*FIN Page Accueil*/
+
+/*Page Film*/
+.page-film>.haut-de-page{
+    width: 100%;
+    height: 100%;
+    margin-top:41.5px;
+    margin-bottom:41.5px;
+}
+
+.portrait{
+    border: 10px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*FIN Page Film*/
+
+/*Page Pollution*/
+.page-pollution>.haut-de-page{
+    width: 100%;
+    height: 100%;
+    margin-top:67.9px;
+    margin-bottom:67.9px;
+}
+/*FIN Page Pollution*/
+
+/*Page Solutions*/
+.page-solution>.haut-de-page{
+    width: 100%;
+    height: 100%;
+    margin-top:61.5px;
+    margin-bottom:61.5px;
+}
+/*FIN Page Solutions*/
+
+/*Page A-propos*/
+.page-a-propos>.haut-de-page{
+    width: 100%;
+    height: 100%;
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.case{
+    color: #606060;
+    padding: 10px 0;
+    font-style: italic;
+    margin: auto 15px;
+}
+
+.case:first-child{
+    margin-top: 5%;
+}
+
+label{
+    display: none;
+}
+input, textarea{
+    background-color: #606060;
+    border-radius: 15px;
+    display: block;
+    width: 320px;
+    color: #373737;
+}
+
+button{
+    display: block;
+    background-color: #606060;
+    color: #373737;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 30%;
+    margin: 0 15px 15px auto;
+    text-align: center;
+}
+
+form{
+    margin: 10px;
+    border: 2px solid #606060;
+    border-radius: 15px;
+    z-index: 4;
+    position: relative;
+    top: -27px;
+}
+
+.titre-formulaire-contact>h2{
+    display:block;
+    width: 30%;
+    position: relative;
+    left: 50px;
+    z-index: 5;
+    color: #606060;
+    background-color: #373737;
+    margin: 0;
+}
+/*FIN Page A-propos*/
+
+/*Caroussel*/
+.caroussel{
+    background-color: #373737;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.film{
+    flex: 1 0 220px;
+    margin-right: 20px;
+}
+
+.film>a>h2{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.projets{
+    flex: 1 0 220px;
+    margin-right: 20px;
+}
+
+.projets>a>h2{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.projets>a:link{
+    text-decoration: none;
+}
+.titre-film:link{
+    text-decoration: none;
+}
+/*FIN Caroussel*/
+
+/*Menu*/
+.fas{
+    display: table-cell;
+}
+
+.fa-bars>span{
+    clip: rect(1px,1px,1px,1px);
+    position: absolute;
+    display: block;
+}
+
+.fa-bars{
+    color: white;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.fa-home>span{
+    clip: rect(1px,1px,1px,1px);
+    position: absolute;
+    display: block;
+}
+
+.fa-home{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 20px;
+}
+.page-menu>ul>li{
+    list-style-type: none;
+}
+
+.page-menu>ul{
+    padding: 0;
+}
+
+.page-menu>ul>li>a:link{
+    text-decoration: none;
+}
+/*FIN Menu*/
+
+/* Footer*/
+footer{
+    background-color: black;
+    position: relative;
+    z-index: 2;
+}
+
+.module-footer{
+    display: table-cell;
+    width: 33%;
+    vertical-align: bottom;
+    margin-top: 10px;
+}
+
+.contact{
+    text-align: center;
+}
+.mailto{
+    background-color: #373737;
+    border-radius: 15px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px;
+    color: #F0AE82;
+}
+.groupe>ul{
+    margin: 0;
+}
+.groupe>ul>li>p{
+    margin: 0 15px;
+}
+
+.groupe>ul>li{
+    list-style-type: none;
+}
+
+.groupe>ul{
+    padding-left: 10px;
+}
+
+.module-footer{
+    margin: 0;
+    padding: 0;
+}
+.logo>img{
+    display: block;
+    margin: auto 10% auto auto;
+}
+
+.mention-legale>p{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+/* Fin Footer*/

@@ -1,3 +1,7 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+
+
 body{
     font-family: 'Courier Prime', monospace; /* tous les textes en Courier Prime*/
 }
@@ -9,9 +13,10 @@ h1{
     font-weight: bold;
     background-color: #C9C9C990;
     border: 3px solid #373737;
-    text-align: center;
     padding: 20px 15px 20px 15px;
-    margin: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h2{
@@ -28,22 +33,29 @@ h3{
     font-weight: bold;
     color: #F0AE82;
     text-align: left;
-    margin: 10px;
+    margin: 15px;
 }
 
 h4{
     font-size: 14px;
     color: #E5772F;
     text-align: center;
-    margin: 5px 0 5px 0;
+    margin: 10px 0 10px 0;
 }
 
-h5, p{
+p{
     font-size: 14px;
     font-weight: normal;
     color: #F0AE82;
     text-align: left;
-    margin: 7px;
+    margin: 15px;
+}
+
+.formulaire-contact>span{
+    font-size: 12px;
+    font-style: italic;
+    color: #606060;
+    margin: 0 0 0 30px ;
 }
 
 .mots-cles{
@@ -55,3 +67,24 @@ h5, p{
 article{
     margin-bottom: 30px;
 }
+
+.signature-article>h4{
+    text-align: right;
+}
+
+body.page-accueil>div.introduction>p>strong.titre-projet{
+    text-decoration: underline solid #F0AE82;
+}
+
+p>a{
+    color: #F0AE82;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.autres-projets>ul>li{
+    list-style-type: none;
+    text-align: center;
+}
+
+

@@ -5,62 +5,133 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>À propos</title>
+    <title>Pollution</title>
     <link rel="stylesheet" href="css/mescss/typography.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-    </style>
+    <link rel="stylesheet" href="css/mescss/mise-en-page.css">
 </head>
-<body>
-    <header>
-        <nav class="navigation-principale">
-            <a href="index.html"><img src="img/home.svg" alt="accueil"></a>
-            <a href="menu.html"><img src="img/menu.svg" alt="menu"></a>
-        </nav>
-    </header>
 
-    <div class="haut-de-page">
-        <img src="img/page-a-propos.jpg" alt="img-tete">
-        <h1>À propos</h1>
+<body class="page-a-propos">
+<header>
+    <nav class="navigation-principale">
+        <a href="menu.html"><i class="fas fa-bars"><span>menu</span></i></a>
+    </nav>
+</header>
+
+<div class="haut-de-page">
+    <img src="img/page-a-propos.jpg" style="width: 100%" alt="img-tete">
+    <h1>À propos</h1>
+</div>
+
+<div class="fond-page">
+<h2>Qui suis-je ?</h2>
+
+<p>Je suis étudiant au département des Métiers du Multimédia et de l’Internet à Montbéliard. Ce site a été réalisé dans le cadre de projet individuel du semestre 1 de première année. La pollution du web est dénoncée à travers le film l’Oeil du mal. Ayant adoré ce film, je l’ai donc choisi pour mon projet.</p>
+<h4>Galerie des Projets du groupe A1</h4>
+<p>Voici tous les liens des projet de mes camarades de Travaux Pratique. N'hésites pas à aller jeter un oeil pour en apprendre peut-être encore plus.</p>
+
+<div class="titre-formulaire-contact">
+    <h2>Contact</h2>
+    <form action="#" method="post">
+        <div class="case">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name" value="NOM Prénom">
+        </div>
+        <div class="case">
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail" value="adresse mail">
+        </div>
+        <div class="case">
+            <label for="sujet">Sujet :</label>
+            <input type="text" id="sujet" name="sujet" value="Sujet">
+        </div>
+        <div class="case">
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message">Votre message</textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+</div>
+
+<div class="caroussel autres-projets">
+    <div class="projets">
+        <a href=""><img src="img/her.jpg" style="width: 100%" alt="Cin&science Félix"></a>
+        <a href="http://projets1.sitecali.fr/"><h2>Cin&Science</h2></a>
     </div>
-    <h5>Qui suis-je ?</h5>
-    <p>Je suis étudiant au département des Métiers du Multimédia et de l’Internet à Montbéliard. Ce site a été réalisé dans le cadre de projet individuel du semestre 1 de première année. La pollution du web est dénoncée à travers le film l’Oeil du mal. Ayant adoré ce film, je l’ai donc choisi pour mon projet.</p>
-    <h5>Galerie des Projets du groupe A1</h5>
-    <p>Voici tous les liens des projet de mes camarades de Travaux Pratique. N'hésites pas à aller jeter un oeil pour en apprendre peut-être encore plus.</p>
-    <ul>
-        <li><a href="https://sitecali.fr/">Cin&Science</a></li>
-        <li><a href="http://taniaandre.fr/">Ghost in the shell</a></li>
-        <li><a href="http://www.alexanthoine.fr">Black Data</a></li>
-        <li><a href="http://site.thibaudbarrand.fr/">How to sell drugs Online (fast)</a></li>
-        <li><a href="http://lenabtlrd.fr/">Pollution cachée</a></li>
-        <li><a href="http://nbaumann.fr">South Park dénonce Amazon</a></li>
-        <li><a href="http://ninabellino.fr/">Data code</a></li>
-        <li><a href="https://marinebeurier.fr/">Polluting Girl</a></li>
-        <li><a href="http://mathisbotton.fr">Data runner</a></li>
-        <li><a href="http://evaduxewy.fr/">Centhack</a></li>
-        <li><a href="http://nathanbroglin.fr">The shadow of sociability</a></li>
-    </ul>
-    <footer>
-        <div class="groupe module-footer">
-            <ul>
-                <li>Raphaël</li>
-                <li>BONIN</li>
-                <li>A1</li>
-            </ul>
-        </div>
 
-        <div class="contact module-footer">
-            <a href="mailto:contact@raphbonin.com" class="mailto">Nous contacter</a>
-        </div>
+    <div class="projets">
+        <a href=""><img src="img/Ghody%20on%20the%20shell.jpg" style="width: 100%" alt="Ghost in the shell Tania"></a>
+        <a href="http://projets1.taniaandre.fr/"><h2>Ghost in the shell</h2></a>
+    </div>
 
-        <div class="mention-legale module-footer">
-            <p>Projet réalisé dans le cadre d'un exercice pédagogique au sein du département <a href="http://mmimontbeliard.com">MMI de Montbéliard</a>.</p>
-        </div>
+    <div class="projets">
+        <a href=""><img src="img/Black%20mirro%20s3.jpg" style="width: 100%" alt="Black Mirror Alexandre"></a>
+        <a href="http://projets1.www.alexanthoine.fr"><h2>Black Data</h2></a>
+    </div>
 
-        <div class="logo module-footer">
-            <img src="img/logo%20mmi%20violet.png" alt="logo-mmi">
-        </div>
+    <div class="projets">
+        <a href=""><img src="img/How%20to%20selle%20drug%20online%20(fast).jpeg" style="width: 100%" alt="How to cell drug online Thibaut"></a>
+        <a href="http://projets1.site.thibaudbarrand.fr/"><h2>How to sell drugs Online (fast)</h2></a>
+    </div>
 
-    </footer>
+    <div class="projets">
+        <a href=""><img src="img/Portée%20disparue.jpg" style="width: 100%" alt="Portée disparue Lena"></a>
+        <a href="http://projets1.lenabtlrd.fr/"><h2>Pollution cachée</h2></a>
+    </div>
+
+    <div class="projets">
+        <a href=""><img src="img/South%20park.jpg" style="width: 100%" alt="South Park Nathan"></a>
+        <a href="http://projets1.nbaumann.fr"><h2>South Park dénonce Amazon</h2></a>
+    </div>
+
+    <div class="projets">
+        <a href=""><img src="img/Code%20poursuite.jpeg" style="width: 100%" alt="Code Poursuite Nina"></a>
+        <a href="http://projets1.ninabellino.fr/"><h2>Data code</h2></a>
+    </div>
+
+    <div class="projets">
+        <a href=""><img src="img/Girlboss.jpg" style="width: 100%" alt="Girlboss Marine"></a>
+        <a href="http://projets1.marinebeurier.fr/"><h2>Polluting Girl</h2></a>
+    </div>
+
+    <div class="projets">
+        <a href=""><img src="img/Blade%20runner.jpg" style="width: 100%" alt="Blade runner Mathis"></a>
+        <a href="http://projets1.mathisbotton.fr"><h2>Data runner</h2></a>
+    </div>
+
+    <div class="projets">
+        <a href=""><img src="img/Hackers.jpg" style="width: 100%" alt="Hackers Eva"></a>
+        <a href="http://projets1.evaduxewy.fr/"><h2>Centhack</h2></a>
+    </div>
+
+    <div class="projets">
+        <a href=""><img src="img/The%20social%20network.jpg" style="width: 100%" alt="Social Network Nathan"></a>
+        <a href="http://projets1.nathanbroglin.fr"><h2>The shadow of sociability</h2></a>
+    </div>
+
+
+</div>
+<footer>
+    <div class="groupe module-footer">
+        <ul>
+            <li><p>Raphaël</p></li>
+            <li><p>BONIN</p></li>
+            <li><p>A1</p></li>
+        </ul>
+    </div>
+
+    <div class="contact module-footer">
+        <a href="mailto:contact@raphbonin.com" class="mailto">Nous contacter</a>
+    </div>
+
+    <div class="logo module-footer">
+        <img src="img/logo%20mmi%20violet.png" style="width: 60%" alt="logo-mmi">
+    </div>
+
+    <div class="mention-legale">
+        <p>Projet réalisé dans le cadre d'un exercice pédagogique au sein du département <a href="http://mmimontbeliard.com">MMI de Montbéliard</a>.</p>
+    </div>
+
+</footer>
+</div>
 </body>
 </html>
