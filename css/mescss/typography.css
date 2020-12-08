@@ -51,13 +51,6 @@ p{
     margin: 15px;
 }
 
-.formulaire-contact>span{
-    font-size: 12px;
-    font-style: italic;
-    color: #606060;
-    margin: 0 0 0 30px ;
-}
-
 .mots-cles{
     font-size: 14px;
     color: #E5772F;
@@ -72,9 +65,6 @@ article{
     text-align: right;
 }
 
-body.page-accueil>div.introduction>p>strong.titre-projet{
-    text-decoration: underline solid #F0AE82;
-}
 
 p>a{
     color: #F0AE82;

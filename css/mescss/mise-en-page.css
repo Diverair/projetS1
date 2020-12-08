@@ -184,7 +184,12 @@ form{
 .projets>a:link{
     text-decoration: none;
 }
-.titre-film:link{
+
+.film>a:link{
+    text-decoration: none;
+}
+
+.film>a:visited{
     text-decoration: none;
 }
 /*FIN Caroussel*/
@@ -230,6 +235,10 @@ form{
 }
 
 .page-menu>ul>li>a:link{
+    text-decoration: none;
+}
+
+.page-menu>ul>li>a:visited{
     text-decoration: none;
 }
 /*FIN Menu*/
