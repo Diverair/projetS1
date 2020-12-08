@@ -9,12 +9,13 @@ body{
 }
 
 body>header>nav{
-    background-color: #87878770;
+    background-color: #87878799;
     display: table-row;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
+    height: 40px;
     margin: 0;
     z-index: 99;
 }
@@ -195,37 +196,51 @@ form{
 /*FIN Caroussel*/
 
 /*Menu*/
-.fas{
-    display: table-cell;
-}
-
-.fa-bars>span{
-    clip: rect(1px,1px,1px,1px);
-    position: absolute;
-    display: block;
-}
-
 .fa-bars{
+    display: block;
+    position: absolute;
+    left: auto;
+    right: 10px;
+    top: 10px;
+    margin: 0;
+    z-index: 99;
     color: white;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: 10px;
-    width: 20px;
+    width: auto;
+    height: auto;
 }
 
-.fa-home>span{
+header>nav>a>i>h4 {
     clip: rect(1px,1px,1px,1px);
     position: absolute;
-    display: block;
+    display: none;
 }
 
 .fa-home{
+    display: block;
+    position: absolute;
+    right: auto;
+    left: 10px;
+    top: 10px;
+    margin: 0;
+    z-index: 99;
     color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width: 20px;
+    width: auto;
+    height: auto;
 }
+
+.fa-times {
+    display: block;
+    position: absolute;
+    left: auto;
+    right: 10px;
+    top: 10px;
+    margin: 0;
+    z-index: 99;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
 .page-menu>ul>li{
     list-style-type: none;
 }
