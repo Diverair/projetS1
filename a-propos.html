@@ -28,26 +28,26 @@
 
 <p>Je suis étudiant au département des Métiers du Multimédia et de l’Internet à Montbéliard. Ce site a été réalisé dans le cadre de projet individuel du semestre 1 de première année. La pollution du web est dénoncée à travers le film l’Oeil du mal. Ayant adoré ce film, je l’ai donc choisi pour mon projet.</p>
 <h4>Galerie des Projets du groupe A1</h4>
-<p>Voici tous les liens des projet de mes camarades de Travaux Pratique. N'hésites pas à aller jeter un oeil pour en apprendre peut-être encore plus.</p>
+<p>Voici tous les liens des projets de mes camarades de Travaux Pratiques. N'hésites pas à aller jeter un coup d'oeil pour en apprendre peut-être encore plus.</p>
 
 <div class="titre-formulaire-contact">
     <h2>Contact</h2>
     <form action="#" method="post">
         <div class="case">
             <label for="name">Nom :</label>
-            <input type="text" id="name" name="user_name" value="NOM Prénom">
+            <input type="text" id="name" name="user_name" onclick="this.select()" value="NOM Prénom">
         </div>
         <div class="case">
             <label for="mail">e-mail :</label>
-            <input type="email" id="mail" name="user_mail" value="adresse mail">
+            <input type="email" id="mail" name="user_mail" onclick="this.select()" value="adresse mail">
         </div>
         <div class="case">
             <label for="sujet">Sujet :</label>
-            <input type="text" id="sujet" name="sujet" value="Sujet">
+            <input type="text" id="sujet" name="sujet" onclick="this.select()" value="Sujet">
         </div>
         <div class="case">
             <label for="msg">Message :</label>
-            <textarea id="msg" name="user_message">Votre message</textarea>
+            <textarea id="msg" name="user_message" onclick="this.select()">Votre message</textarea>
         </div>
         <button type="submit">Envoyer</button>
     </form>
