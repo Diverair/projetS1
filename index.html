@@ -8,13 +8,29 @@
     <title>Pollution</title>
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/mise-en-page.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
 </head>
 
 <body class="page-accueil">
 
 <header>
     <nav class="navigation-principale">
-        <a href="menu.html"><i class="fa fa-bars"></i></a><!-- utilise un élément A pour iOS! -->
+    </nav>
+
+    <div class="bouton-menu" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="bouton-menu-bar">
+        </div>
+    </div>
+
+    <nav class="menu">
+        <img src="img/images.jpeg" style="width: 100%" alt="Haut de page menu">
+        <ul>
+            <li><a href="index.html"><h2>Accueil</h2></a></li>
+            <li><a href="l-œil-du-mal.html"><h2>L'Œil du mal</h2></a></li>
+            <li><a href="pollution.html"><h2>Pollution</h2></a></li>
+            <li><a href="solutions.html"><h2>Solutions</h2></a></li>
+            <li><a href="a-propos.html"><h2>À Propos</h2></a></li>
+        </ul>
     </nav>
 </header>
 

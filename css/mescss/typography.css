@@ -5,9 +5,7 @@
 body{
     font-family: 'Courier Prime', monospace; /* tous les textes en Courier Prime*/
 }
-nav{
-    font-family: 'Arial', serif;
-}
+
 h1{
     font-size: 30px;
     width: 200px;

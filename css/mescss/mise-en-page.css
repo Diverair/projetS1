@@ -10,7 +10,7 @@ body{
 
 }
 
-body>header>nav{
+body>header>nav.navigation-principale{
     background-color: #87878799;
     display: table-row;
     position: fixed;
@@ -73,6 +73,7 @@ article{
     margin-left: auto;
     margin-right: auto;
 }
+
 /*FIN Page Film*/
 
 /*Page Pollution*/
@@ -198,12 +199,6 @@ form{
 /*FIN Caroussel*/
 
 /*Menu*/
-header>nav>a>i>h4 {
-    clip: rect(1px,1px,1px,1px);
-    position: absolute;
-    display: none;
-}
-
 .fa-bars{
     position: absolute;
     left: auto;
@@ -215,47 +210,6 @@ header>nav>a>i>h4 {
     width: auto;
     height: 20px;
 }
-
-.fa-home{
-    position: absolute;
-    right: auto;
-    left: 20px;
-    top: 5px;
-    margin: 0;
-    z-index: 99;
-    color: white;
-    width: auto;
-    height: 20px;
-}
-
-.fa-times {
-    position: absolute;
-    left: auto;
-    right: 20px;
-    top: 5px;
-    margin: 0;
-    z-index: 99;
-    color: white;
-    width:auto;
-    height: 20px;
-}
-
-.page-menu>ul>li{
-    list-style-type: none;
-}
-
-.page-menu>ul{
-    padding: 0;
-}
-
-.page-menu>ul>li>a:link{
-    text-decoration: none;
-}
-
-.page-menu>ul>li>a:visited{
-    text-decoration: none;
-}
-/*FIN Menu*/
 
 /* Footer*/
 footer{

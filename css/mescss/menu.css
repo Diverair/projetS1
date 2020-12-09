@@ -1,0 +1,120 @@
+header>nav>a>i>h4 {
+    clip: rect(1px,1px,1px,1px);
+    position: absolute;
+    display: none;
+}
+.bouton-menu{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.bouton-menu-bar,.bouton-menu-bar::before,.bouton-menu-bar::after{
+    content:"";
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+    position: absolute;
+    left: 0;
+    transition: all .4s ease-in-out;
+}
+
+.bouton-menu-bar::before{
+    top: -6px;
+}
+
+.bouton-menu-bar::after{
+    top: 6px;
+}
+
+.fa-home{
+    position: absolute;
+    right: auto;
+    left: 20px;
+    top: 5px;
+    margin: 0;
+    z-index: 99;
+    color: white;
+    width: auto;
+    height: 20px;
+}
+
+.fa-times {
+    position: absolute;
+    left: auto;
+    right: 20px;
+    top: 5px;
+    margin: 0;
+    z-index: 99;
+    color: white;
+    width:auto;
+    height: 20px;
+}
+
+.menu{
+    background-color: #373737;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    z-index: 150;
+    transform: translateX(100vw);
+    transition: all 1s;
+}
+
+.menu-open .menu{
+    transform: translateX(0);
+}
+
+.menu-open, .menu-open>body{
+    overflow: hidden;
+}
+
+.menu>ul>li{
+    list-style-type: none;
+}
+
+.menu>img{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+}
+
+.menu>ul{
+    padding: 0;
+    margin-top: 310px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu>ul>li>a:link{
+    text-decoration: none;
+}
+
+.menu>ul>li>a:visited{
+    text-decoration: none;
+}
+
+.menu-open .bouton-menu-bar {
+    transform: rotate(135deg);
+    background-color: white;
+}
+
+.menu-open .bouton-menu-bar::before, .menu-open .bouton-menu-bar::after{
+    transform: rotate(90deg);
+    background-color: white;
+    top: 0;
+
+}

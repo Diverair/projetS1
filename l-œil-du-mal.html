@@ -8,13 +8,29 @@
     <title>Pollution</title>
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/mise-en-page.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
 </head>
 
 <body class="page-film">
 <header>
     <nav class="navigation-principale">
         <a href="index.html"><i class="fa fa-home"></i></a>
-        <a href="menu.html"><i class="fa fa-bars"></i></a>
+    </nav>
+
+    <div class="bouton-menu" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="bouton-menu-bar">
+        </div>
+    </div>
+
+    <nav class="menu">
+        <img src="img/images.jpeg" style="width: 100%" alt="Haut de page menu">
+        <ul>
+            <li><a href="index.html"><h2>Accueil</h2></a></li>
+            <li><a href="l-œil-du-mal.html"><h2>L'Œil du mal</h2></a></li>
+            <li><a href="pollution.html"><h2>Pollution</h2></a></li>
+            <li><a href="solutions.html"><h2>Solutions</h2></a></li>
+            <li><a href="a-propos.html"><h2>À Propos</h2></a></li>
+        </ul>
     </nav>
 </header>
 
@@ -30,8 +46,7 @@
     </article>
 
     <article class="accroche">
-        <h3></h3>
-        <p>Pour y parvenir, 2 personnages sont missionnés par une mystérieuse inconnue.</p>
+        <h3>Pour y parvenir, 2 personnages sont missionnés par une mystérieuse inconnue.</h3>
     </article>
 
     <article class="jerry">
@@ -65,12 +80,12 @@
 
     <article class="mise-en-place">
         <h3>Un peu d'action</h3>
-        <p>La <strong class="mots-cles">mission</strong> est censée se passer le soir même, à un concert auquel le président et son cabinet entier est censé assister et où le fils de Rachel doit jouer la dernière note., Lorsque Jerry apprend que le fils de Rachel doit être dans le même bâtiment que le président au moment de l’attentat, il fait tout pour aider Rachel à sauver son fils et par la même occasion le gouvernement américain.</p>
+        <p>La <strong class="mots-cles">mission</strong> est censée se passer le soir même, à un concert auquel le président et son cabinet entier doivent assister et où le fils de Rachel doit jouer la dernière note. Lorsque Jerry apprend que le fils de Rachel doit être dans le même bâtiment que le président au moment de l’attentat, il fait tout pour aider Rachel à sauver son fils et par la même occasion le gouvernement américain.</p>
         <img src="img/Concert.jpg" style="width: 100%" alt="Image d'illustration">
     </article>
 
     <div class="bande-annonce">
-        <video src="video/bande-annonce-oeil-du-mal.m4v" width="100%"  height="auto" controls poster="img/images.jpeg"></video>
+        <video src="video/bande-annonce-oeil-du-mal.m4v" style="width: 100%" controls poster="img/images.jpeg"></video>
         <h4>Bande Annonce</h4>
         <h4>VOSTFR</h4>
     </div>
