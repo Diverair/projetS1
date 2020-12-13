@@ -198,19 +198,6 @@ form{
 }
 /*FIN Caroussel*/
 
-/*Menu*/
-.fa-bars{
-    position: absolute;
-    left: auto;
-    right: 20px;
-    top: 5px;
-    margin: 0;
-    z-index: 99;
-    color: white;
-    width: auto;
-    height: 20px;
-}
-
 /* Footer*/
 footer{
     background-color: black;
@@ -222,7 +209,8 @@ footer{
     display: table-cell;
     width: 33%;
     vertical-align: bottom;
-    margin-top: 10px;
+    margin:10px 0 0 0;
+    padding: 0;
 }
 
 .contact{
@@ -251,17 +239,12 @@ footer{
     padding-left: 10px;
 }
 
-.module-footer{
-    margin: 0;
-    padding: 0;
-}
 .logo>img{
     position: relative;
     top: 10px;
     left: 20px;
     margin: 0;
 }
-
 
 .mention-legale>p{
     text-align: center;
