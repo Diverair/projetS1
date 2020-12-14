@@ -8,6 +8,7 @@ body{
 
 h1{
     font-size: 30px;
+    line-height: 42px;
     width: 200px;
     color: #B7281B;
     font-weight: bold;
@@ -22,6 +23,7 @@ h1{
 h2{
     text-decoration: none;
     font-size: 26px;
+    line-height: 36px;
     color: #E5772F;
     text-align: center;
     padding-top:  1rem;
@@ -29,6 +31,7 @@ h2{
 
 h3{
     font-size: 17px;
+    line-height: 24px;
     font-style: italic;
     font-weight: bold;
     color: #F0AE82;
@@ -38,6 +41,7 @@ h3{
 
 h4{
     font-size: 14px;
+    line-height: 20px;
     color: #E5772F;
     text-align: center;
     margin: 10px 0 10px 0;
@@ -45,6 +49,7 @@ h4{
 
 p{
     font-size: 14px;
+    line-height: 20px;
     font-weight: normal;
     color: #F0AE82;
     text-align: left;
@@ -53,6 +58,7 @@ p{
 
 .mots-cles{
     font-size: 14px;
+    line-height: 20px;
     color: #E5772F;
     font-weight: bold;
 }
@@ -69,6 +75,7 @@ article{
 p>a{
     color: #F0AE82;
     font-size: 14px;
+    line-height: 20px;
     text-decoration: underline;
 }
 
